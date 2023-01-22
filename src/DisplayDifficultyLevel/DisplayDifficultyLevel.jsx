@@ -1,6 +1,8 @@
+import style from "./style.module.css";
+
 export const DisplayDifficultyLevel = (props) => {
   return (
-    <div>
+    <div className={style.container}>
       {props.difficulty
         ? `Difficulty set to ${props.difficulty}`
         : "No difficulty set"}
