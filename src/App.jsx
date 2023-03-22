@@ -14,7 +14,7 @@ export const App = () => {
         <MenuList
           difficulty={currentDifficulty}
           onItemClick={onClickMenuListItem}
-        ></MenuList>
+        />
         <DisplayDifficultyLevel
           difficulty={currentDifficulty}
         ></DisplayDifficultyLevel>
