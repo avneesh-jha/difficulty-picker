@@ -21,7 +21,7 @@ export const MenuListItems = (props) => {
     }
   };
   const onItemClick = () => {
-    props.onClick(props.difficulty);
+    props.onClicks(props.difficulty);
   };
 
   return (
